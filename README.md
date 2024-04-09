@@ -16,7 +16,7 @@ numpy=1.19<br>
 scikit-image=0.17.2<br>
 pillow=8.2<br>
 
-### To train:
+### __To train__:
 * __Training dataset:__
   *  Download the training data: [LOL](https://daooshee.github.io/BMVC2018website/), [AGLIE](https://phi-ai.buaa.edu.cn/project/AgLLNet/index.htm), and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) datasets.
   * Select part of the data for training, and put the low-light images and corresponding normal-light images in `./dataset/low/` and `./dataset/high/`, respectively.
