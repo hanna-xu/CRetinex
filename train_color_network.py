@@ -14,7 +14,7 @@ parser.add_argument('--batch_size', dest='batch_size', type=int, default=8, help
 parser.add_argument('--patch_size', dest='patch_size', type=int, default=128, help='patch size')
 parser.add_argument('--train_data_dir', dest='train_data_dir', default='./dataset/train',
 					help='directory for training inputs')
-parser.add_argument('--train_result_dir', dest='train_result_dir', default='./train_color_result/',
+parser.add_argument('--train_result_dir', dest='train_result_dir', default='./eval_result/color/',
 					help='directory for decomnet training results')
 
 args = parser.parse_args()
