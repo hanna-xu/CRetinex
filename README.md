@@ -12,7 +12,8 @@ numpy=1.19<br>
 scikit-image=0.17.2<br>
 pillow=8.2<br>
 
-
+### To train:
+Download the training data: [LOL](https://daooshee.github.io/BMVC2018website/), [AGLIE](https://phi-ai.buaa.edu.cn/project/AgLLNet/index.htm), and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) datasets.
 
 If this work is helpful to you, please cite it as:
 ```
