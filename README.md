@@ -13,7 +13,20 @@ scikit-image=0.17.2<br>
 pillow=8.2<br>
 
 ### To train:
-Download the training data: [LOL](https://daooshee.github.io/BMVC2018website/), [AGLIE](https://phi-ai.buaa.edu.cn/project/AgLLNet/index.htm), and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) datasets.
+* Training Dataset:
+  *  Download the training data: [LOL](https://daooshee.github.io/BMVC2018website/), [AGLIE](https://phi-ai.buaa.edu.cn/project/AgLLNet/index.htm), and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) datasets.
+  * Select part of the data for training, and put the low-light images and corresponding normal-light images in `./dataset/low/` and `./dataset/high/`, respectively.
+  * Can also put a small number of paired low-light and normal-light images in `./dataset/eval/low/` and `./dataset/eval/high/` for validation during the training phase.
+
+* Train the decomposition network:<br>
+  Run ```CUDA_VISIBLE_DEVICES=0 python train_decomposition_network.py```<br>
+  The relevant files during the training process are stored in `./checkpoint/decomposition/`, `./logs/Decomposition`, and `./train_decom_result`
+
+* Train the color shift estimation network:<br>
+  
+* Train the Spatially variant pollution estimation network:<br>
+
+* Train the illumination adjustment network:<br>
 
 If this work is helpful to you, please cite it as:
 ```
