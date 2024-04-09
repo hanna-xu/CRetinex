@@ -1,6 +1,9 @@
 # CRetinex
 Code of "CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement".
+This method can 
 
+<div align=center><img src="https://github.com/hanna-xu/others/blob/master/images/CRetinex_ex.png" width="950" height="290"/></div>
+<br>
 
 ## Recommended Environment:
 python=3.6<br>
