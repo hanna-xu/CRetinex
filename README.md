@@ -39,7 +39,9 @@ pillow=8.2<br>
   * The relevant files are stored in `./checkpoint/illu_adjust/`, `./logs/illu_adjust/`, and `./eval_result/illu_adjust/`
 
 ### To test:
-
+  * Put the test data in `./test_images/`
+  * Run ```CUDA_VISIBLE_DEVICES=0 python test.py```<br>
+  
 If this work is helpful to you, please cite it as:
 ```
 @article{xu2024CRetinex,
