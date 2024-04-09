@@ -5,7 +5,7 @@ This method can keep the color constancy of the low-light image (as can be seen 
 <br>
 
 The framework of this method is shown below:
-<div align=center><img src="https://github.com/hanna-xu/others/blob/master/images/CRetinex_framework.png" width="995" height="398"/></div>
+<div align=center><img src="https://github.com/hanna-xu/others/blob/master/images/CRetinex_framework.png" width="870" height="348"/></div>
 <br>
 
 
