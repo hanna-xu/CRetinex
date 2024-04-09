@@ -24,19 +24,19 @@ pillow=8.2<br>
 
 * __Train the decomposition network:__<br>
   * Run ```CUDA_VISIBLE_DEVICES=0 python train_decomposition_network.py```<br>
-  * The relevant files are stored in `./checkpoint/decom/`, `./logs/decom/`, and `./train_decom_result/`
+  * The relevant files are stored in `./checkpoint/decom/`, `./logs/decom/`, and `./eval_result/decom/`
 
 * __Train the color shift estimation network:__<br>
   * Run ```CUDA_VISIBLE_DEVICES=0 python train_color_network.py```<br>
-  * The relevant files are stored in `./checkpoint/color_net/`, `./logs/color_net/`, and `./train_color_result/`
+  * The relevant files are stored in `./checkpoint/color_net/`, `./logs/color_net/`, and `./eval_result/color/`
 
 * Train the spatially variant pollution estimation network:<br>
   * Run ```CUDA_VISIBLE_DEVICES=0 python train_noise_network.py```<br>
-  * The relevant files are stored in `./checkpoint/noise_net/`, `./logs/noise_net/`, and `./train_noise_result/`
+  * The relevant files are stored in `./checkpoint/noise_net/`, `./logs/noise_net/`, and `./eval_result/noise/`
 
 * __Train the illumination adjustment network:__<br>
   * Run ```CUDA_VISIBLE_DEVICES=0 python train_illu_adjust_network.py```<br>
-  * The relevant files are stored in `./checkpoint/illu_adjust/`, `./logs/illu_adjust/`, and `./train_illu_adjust_result/`
+  * The relevant files are stored in `./checkpoint/illu_adjust/`, `./logs/illu_adjust/`, and `./eval_result/illu_adjust/`
 
 ### To test:
 
