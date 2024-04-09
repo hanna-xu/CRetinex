@@ -1,5 +1,5 @@
 # CRetinex
-Code of ``CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement''.
+Code of "CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement".
 
 
 ## Recommended Environment:
