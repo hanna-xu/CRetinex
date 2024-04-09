@@ -1,9 +1,13 @@
 # CRetinex
 Code of "CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement".<br>
 This method can keep the color constancy of the low-light image (as can be seen from the enhancement results of the low-light images captured of the same scene).
-
 <div align=center><img src="https://github.com/hanna-xu/others/blob/master/images/CRetinex_ex.png" width="870" height="168"/></div>
 <br>
+
+The framework of this method is shown below:
+<div align=center><img src="https://github.com/hanna-xu/others/blob/master/images/CRetinex_framework.png" width="1243" height="497"/></div>
+<br>
+
 
 ## Recommended Environment:
 python=3.6<br>
@@ -24,7 +28,7 @@ pillow=8.2<br>
 
 * Train the color shift estimation network:<br>
   
-* Train the Spatially variant pollution estimation network:<br>
+* Train the spatially variant pollution estimation network:<br>
 
 * Train the illumination adjustment network:<br>
 
