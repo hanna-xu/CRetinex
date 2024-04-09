@@ -33,7 +33,7 @@ pillow=8.2<br>
 
 * Train the illumination adjustment network:<br>
   Run ```CUDA_VISIBLE_DEVICES=0 python train_illumination_adjustment_network.py```<br>
-  The relevant files during the training process are stored in `./checkpoint/illumination_adjustment/`, `./logs/illumination_adjustment/`, and `./train_illumination_adjust_result/`
+  The relevant files are stored in ./checkpoint/illumination_adjustment/, ./logs/illumination_adjustment/, and ./train_illumination_adjust_result/
 
 ### To test:
 
