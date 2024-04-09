@@ -35,8 +35,8 @@ pillow=8.2<br>
   * The relevant files are stored in `./checkpoint/noise_net/`, `./logs/noise_net/`, and `./train_noise_result/`
 
 * __Train the illumination adjustment network:__<br>
-  * Run ```CUDA_VISIBLE_DEVICES=0 python train_illumination_adjustment_network.py```<br>
-  * The relevant files are stored in `./checkpoint/illumination_adjustment/`, `./logs/illumination_adjustment/`, and `./train_illumination_adjust_result/`
+  * Run ```CUDA_VISIBLE_DEVICES=0 python train_illu_adjust_network.py```<br>
+  * The relevant files are stored in `./checkpoint/illu_adjust/`, `./logs/illu_adjust/`, and `./train_illu_adjust_result/`
 
 ### To test:
 
