@@ -2,7 +2,7 @@
 Code of "CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement".<br>
 This method can keep the color constancy of the low-light image. As shown in the following figure, the color constancy is validated in the enhancement results of the low-light images captured of the same scene.
 
-<div align=center><img src="https://github.com/hanna-xu/others/blob/master/images/CRetinex_ex.png" width="660" height="240"/></div>
+<div align=center><img src="https://github.com/hanna-xu/others/blob/master/images/CRetinex_ex.png" width="1220" height="233"/></div>
 <br>
 
 ## Recommended Environment:
