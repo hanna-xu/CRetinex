@@ -14,7 +14,7 @@ parser.add_argument('--batch_size', dest='batch_size', type=int, default=8, help
 parser.add_argument('--patch_size', dest='patch_size', type=int, default=48, help='patch size')
 parser.add_argument('--train_data_dir', dest='train_data_dir', default='./dataset/train',
 					help='directory for training inputs')
-parser.add_argument('--train_result_dir', dest='train_result_dir', default='./train_decom_result/',
+parser.add_argument('--train_result_dir', dest='train_result_dir', default='./eval_result/decom/',
 					help='directory for decomnet training results')
 
 args = parser.parse_args()
@@ -143,7 +143,7 @@ train_op = train_op_Decom
 train_loss = loss_Decom_I
 saver = saver_Decom
 
-checkpoint_dir = './checkpoint/decomposition/'
+checkpoint_dir = './checkpoint/decom/'
 if not os.path.isdir(checkpoint_dir):
 	os.makedirs(checkpoint_dir)
 ckpt = tf.train.get_checkpoint_state(checkpoint_dir)
@@ -158,7 +158,7 @@ else:
 	print('No decomnet pretrained model!')
 	iter_num = 0
 
-writer = tf.compat.v1.summary.FileWriter("logs/decomposition/", sess.graph)
+writer = tf.compat.v1.summary.FileWriter("logs/decom/", sess.graph)
 start_step = 0
 start_epoch = 0
 
