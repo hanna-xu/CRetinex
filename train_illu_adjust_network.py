@@ -193,7 +193,7 @@ start_step = 0
 start_epoch = 0
 print("[*] Start training for phase %s, with start epoch %d start iter %d : " % (train_phase, start_epoch, iter_num))
 
-sample_dir = './train_illu_adjust_result/'
+sample_dir = './eval_result/illu_adjust/'
 if not os.path.isdir(sample_dir):
 	os.makedirs(sample_dir)
 
