@@ -31,6 +31,8 @@ pillow=8.2<br>
   * The relevant files are stored in `./checkpoint/color_net/`, `./logs/color_net/`, and `./train_color_result/`
 
 * Train the spatially variant pollution estimation network:<br>
+  * Run ```CUDA_VISIBLE_DEVICES=0 python train_noise_network.py```<br>
+  * The relevant files are stored in `./checkpoint/noise_net/`, `./logs/noise_net/`, and `./train_noise_result/`
 
 * __Train the illumination adjustment network:__<br>
   * Run ```CUDA_VISIBLE_DEVICES=0 python train_illumination_adjustment_network.py```<br>
