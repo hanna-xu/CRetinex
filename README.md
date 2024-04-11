@@ -1,5 +1,5 @@
 # CRetinex
-Code for "CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement".
+Code for "CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement" (IJCV 2024).
 
 ## Introduction:
 This method can keep the color constancy of the low-light image (as can be seen from the enhancement results of the low-light images captured of the same scene).
