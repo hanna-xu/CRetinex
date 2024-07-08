@@ -121,7 +121,7 @@ eval_low_data = []
 eval_high_data = []
 eval_low_data_name = glob('./dataset/eval/low/*.png')
 eval_low_data_name.sort()
-eval_high_data_name = glob('./dataset/eval/high/*.png*')
+eval_high_data_name = glob('./dataset/eval/high/*.png')
 eval_high_data_name.sort()
 for idx in range(len(eval_low_data_name)):
 	eval_low_im = load_images(eval_low_data_name[idx])
