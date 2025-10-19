@@ -51,6 +51,8 @@ If this work is helpful to you, please cite it as:
   author={Xu, Han and Zhang, Hao and Yi, Xunpeng and Ma, Jiayi},
   journal={International Journal of Computer Vision},
   year={2024},
+  volume={132},
+  pages={3610--3632},
   publisher={Springer}
 }
 ```
